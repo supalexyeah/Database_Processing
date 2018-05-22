@@ -9,7 +9,7 @@ referencing the user table.
 import urllib.request, time, json, sqlite3
 
 # Connect to database
-conn = sqlite3.connect('csc455.db')
+conn = sqlite3.connect('al.db')
 # Request a cursor from the database
 c = conn.cursor()
 
