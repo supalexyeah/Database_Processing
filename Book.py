@@ -14,7 +14,7 @@ Books(ISBN, Name, Price, NumberOfCopies)
 #Books(ISBN, Name, Price, NumberOfCopies)$
 import sqlite3
 
-conn = sqlite3.connect('CSC455.db')
+conn = sqlite3.connect('al.db')
 c = conn.cursor()
 
 c.execute('drop table if exists Books')
